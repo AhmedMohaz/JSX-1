@@ -1,13 +1,7 @@
-// src/components/Image.js
 import React from 'react';
 import product from '../product';
 
-const Image = () => (
-  <img
-    src={product.image}
-    alt={product.name}
-    className="img-fluid rounded w-100"
-  />
-);
+const Name = () => <h5>{product.name}</h5>;
 
-export default Image;
+export default Name;
+
